@@ -18,6 +18,8 @@ class SimpleApp extends React.Component {
   render() {
     return (
       <View style={styles.container}>
+      <Image style = {{width : 30, height : 30}}
+             source = {{uri : 'second'}} />
         <Text>This is a simple application.</Text>
       </View>
     )
